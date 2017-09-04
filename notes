@@ -1,0 +1,3 @@
+Components or Views are snippets of codes used to prooduce html
+We nest the different components to make complex applications relatively simple
+There are two libraries one to nest and create components and other to interact with the dom and render it to the dom. first is React and the second one is React-DOM
