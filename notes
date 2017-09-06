@@ -1,3 +1,8 @@
 Components or Views are snippets of codes used to prooduce html
 We nest the different components to make complex applications relatively simple
 There are two libraries one to nest and create components and other to interact with the dom and render it to the dom. first is React and the second one is React-DOM
+There are two types of component, functional compnent which may be takes some args in and returns JSX and another component called as class component, which introspects itsel and is aware of its state.Every component that is class based must have render
+If you want to use javascript while rendering in an html element, we put it inside curly braces.
+STATE: State is a plain javacript object that is uded to record and react to user events. Each class based components has its own state.Whenever component's state is changed, the component immediately rerenders and also forces all of its children to rerender. We need to initialize the state object
+Objects aree used to render teh components, not class components or functional components directly.
+A controlled component has its value set by its state
